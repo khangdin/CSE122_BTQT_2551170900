@@ -1,0 +1,68 @@
+body {
+    background-color: #fcfbf9;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.register-container {
+    max-width: 580px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.register-card {
+    background-color: #ffffff;
+    border: 2px solid #ffe0b2;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+    color: #e65100;
+}
+
+.form-subtitle {
+    font-size: 14px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 6px;
+    padding: 10px 14px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #f97316;
+}
+
+.input-error {
+    border-color: #dc3545 !important;
+    background-color: #fff5f5 !important;
+}
+
+.input-success {
+    border-color: #198754 !important;
+}
+
+.btn-register {
+    width: 100%;
+    background-color: #f97316;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.btn-register:hover {
+    background-color: #ea580c;
+}

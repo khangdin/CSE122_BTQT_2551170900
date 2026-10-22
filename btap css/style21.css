@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.banner-container {
+    background-color: #8b0000;
+    height: 90px;
+}
+
+.logo-image {
+    max-height: 60px;
+    object-fit: contain;
+}
+
+.banner-image {
+    max-height: 70px;
+    object-fit: contain;
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #ff4d4d, #8b0000);
+    min-width: 200px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.exercise-title {
+    color: #8b0000 !important;
+}
+
+.submenu-box {
+    background-color: #fff9db;
+}
+
+.submenu-list li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.submenu-list a:hover {
+    text-decoration: underline !important;
+}
+
+.content-box {
+    border-color: #dee2e6;
+    min-height: 220px;
+}
+
+.ads-sidebar {
+    min-width: 160px;
+}
+
+.ads-banner {
+    border-color: #dee2e6 !important;
+}

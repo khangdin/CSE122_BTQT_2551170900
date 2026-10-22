@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang liên hệ</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <form class="form-container" action="#" method="post">
+        <div class="form-header">
+            <h2>Liên hệ với chúng tôi</h2>
+            <p>Vui lòng điền thông tin bên dưới, chúng tôi sẽ phản hồi trong 24h.</p>
+        </div>
+        <div class="form-body">
+            <div class="row">
+                <div class="form-group">
+                    <label for="full-name">Họ và tên</label>
+                    <input type="text" id="full-name" value="Nguyễn Văn An">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="an.nv@example.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="text" id="phone" value="0912345678">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Chủ đề</label>
+                    <select id="subject">
+                        <option selected>Hỏi về khóa học</option>
+                        <option>Hợp tác kinh doanh</option>
+                        <option>Hỗ trợ kỹ thuật</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group" style="width: 100%;">
+                <label for="message">Nội dung tin nhắn</label>
+                <textarea id="message" rows="4" style="margin-bottom: 15px;"></textarea>
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" checked>Tôi đồng ý nhận email phản hồi</label>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="btn-submit">Gửi liên hệ</button>
+                <button type="reset" class="btn-reset">Nhập lại</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

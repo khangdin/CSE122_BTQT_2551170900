@@ -1,0 +1,61 @@
+body {
+    background-color: #fdfbf7;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    color: #cc5500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lbox img {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.food {
+    border-collapse: collapse;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food th {
+    background-color: #e65c00;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #b34700;
+}
+
+.food td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.food th.stt, .food td.stt {
+    text-align: center;
+    width: 60px;
+}
+
+.food th.name, .food td.name {
+    text-align: left;
+}
+
+.food tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.food tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}

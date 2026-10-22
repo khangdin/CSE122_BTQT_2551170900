@@ -1,0 +1,112 @@
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+    width: 100%;
+    padding: 20px;
+}
+
+.content-section {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#row-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.special-text {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background: linear-gradient(45deg, #f59e0b, #fbbf24, #d97706);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-buttons .btn {
+    background-color: #334155 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 8px 14px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-buttons .btn.active {
+    background-color: #0d6efd !important;
+}
+
+.effect-gray {
+    filter: grayscale(1);
+}
+
+.effect-xgray {
+    filter: grayscale(1) invert(1);
+}
+
+.effect-inverse {
+    filter: invert(1);
+}
+
+.effect-fliph {
+    transform: scaleX(-1);
+}
+
+.effect-flipv {
+    transform: scaleY(-1);
+}
+
+.effect-glow {
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+
+.effect-shadow {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+}
+
+.effect-bshadow {
+    filter: drop-shadow(8px 8px 16px rgba(255, 255, 255, 0.6));
+}
+
+.effect-dshadow {
+    filter: drop-shadow(6px 6px 12px rgba(13, 110, 253, 0.8));
+}
+
+.effect-blur {
+    filter: blur(3px);
+}
+
+.effect-wave {
+    filter: url(#wave-filter);
+}
+
+.effect-mask {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%);
+}
+
+.effect-alpha {
+    opacity: 0.4;
+}

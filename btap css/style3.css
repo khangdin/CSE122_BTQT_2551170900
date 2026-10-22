@@ -1,0 +1,55 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(135deg, #7ec8e3,#0a5c8a)
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+}
+.card{
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    padding: 40px,50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+h1{
+    color: #0b3d5c ;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.intro{
+    background-color: #0b3d5c ;
+    color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.content{
+    color:  #0b3d5c ;
+    font-size: 26px;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.content p::first-letter{
+    font-size: 70px;
+    font-weight: bold;
+    color  : #0b3d5c ;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 0.8;
+}
+.thumb{
+    width: 320px;
+    float: left;
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}

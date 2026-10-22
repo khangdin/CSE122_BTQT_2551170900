@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Tài Khoản</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style17.css">
+</head>
+<body>
+
+    <div class="register-container">
+        <div class="register-card">
+            <h3 class="form-title text-center fw-bold mb-1">Đăng Ký Tài Khoản</h3>
+            <p class="form-subtitle text-center text-muted mb-4">Dữ liệu được kiểm tra bằng JavaScript trước khi gửi</p>
+
+            <form id="register-form" onsubmit="return validateForm()">
+                <div class="mb-3">
+                    <label for="text-name" class="form-label">Họ và tên</label>
+                    <input type="text" id="text-name" class="form-control" placeholder="Nhập họ và tên...">
+                    <div id="name-error" class="error-msg text-danger small mt-1" style="display: none;"></div>
+                    <div id="name-success" class="success-msg text-success small mt-1" style="display: none;">Hợp lệ</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="text-email" class="form-label">Email</label>
+                    <input type="text" id="text-email" class="form-control" placeholder="Nhập địa chỉ email...">
+                    <div id="email-error" class="error-msg text-danger small mt-1" style="display: none;"></div>
+                    <div id="email-success" class="success-msg text-success small mt-1" style="display: none;">Hợp lệ</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="text-password" class="form-label">Mật khẩu</label>
+                    <input type="password" id="text-password" class="form-control" placeholder="Nhập mật khẩu...">
+                    <div id="pass-error" class="error-msg text-danger small mt-1" style="display: none;"></div>
+                    <div id="pass-success" class="success-msg text-success small mt-1" style="display: none;">Hợp lệ</div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="text-confirm-password" class="form-label">Xác nhận mật khẩu</label>
+                    <input type="password" id="text-confirm-password" class="form-control" placeholder="Nhập lại mật khẩu...">
+                    <div id="confirm-error" class="error-msg text-danger small mt-1" style="display: none;"></div>
+                    <div id="confirm-success" class="success-msg text-success small mt-1" style="display: none;">Hợp lệ</div>
+                </div>
+
+                <button type="submit" class="btn btn-register w-100">Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="bai17.js"></script>
+</body>
+</html>

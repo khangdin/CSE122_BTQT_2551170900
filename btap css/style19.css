@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.title-custom {
+    color: #d97706;
+    text-shadow: 2px 2px 4px rgba(217, 119, 6, 0.4);
+}
+
+.content-box {
+    border: 2px dashed #c2410c;
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.highlight {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.image-custom {
+    width: 100%;
+    max-width: 320px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}

@@ -1,0 +1,119 @@
+body {
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.app-header {
+    background-color: #6f42c1;
+    color: #ffffff;
+    padding: 20px 24px;
+}
+
+.btn-custom {
+    background-color: #6f42c1;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #59359a;
+    color: #ffffff;
+}
+
+#task-list {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.task-item {
+    padding: 14px 24px;
+    border-bottom: 1px dashed #d1c4e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.custom-checkbox {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #b39ddb;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.task-item.completed .custom-checkbox {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.task-item.completed .custom-checkbox::after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+}
+
+.task-text {
+    color: #333333;
+    font-size: 15px;
+}
+
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.delete-btn {
+    background-color: #ffebee;
+    color: #c62828;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    background-color: #ffcdd2;
+}
+
+.app-footer {
+    background-color: #f9f8fc;
+    padding: 12px 24px;
+    border-top: 1px solid #eee;
+    color: #6b7280;
+    font-size: 14px;
+}
